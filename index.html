@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style/style.css   ">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="resume">
+            <h1>Decodificador de Texto</h1>
+            <p class="note">
+                Só é permitido letras mínusculas e sem caracteres especiais (incluindo acentuação).
+                <br>
+                Exemplo.: bem vindo ao decodificador.
+            </p>
+        </div>
+    </header>
+
+    <main class="main">
+        <form class="form">
+            <textarea class="input-text" type="text" cols="30" rows="10"></textarea>
+
+            <div class="buttons">
+                <button id="codificar">Codificar</button>
+                <button id="decodificar">Decodificar</button>
+            </div>
+
+            <div class="result-copy">
+                <div class="exibir-msg"></div>
+                <div class="erro-copy">
+                    <p id="msg-error"></p>
+                    <button id="copy">Copiar</button>
+                </div>
+
+            </div>
+
+        </form>
+    </main>
+
+    <script type="text/javascript" src="./assets/js/script.js">  </script>
+</body>
+
+</html>

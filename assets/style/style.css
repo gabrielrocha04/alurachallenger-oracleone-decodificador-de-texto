@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap');
+
+body {
+    background-color: black;
+}
+
+.resume {
+    text-align: center;
+    color: darkgreen;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.resume .note {
+    font-size: 0.75em;
+}
+
+.main form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: darkgreen;
+    font-size: 1.5em;
+}
+
+.main form textarea {
+    width: 30%;
+    height: 60vh;
+    resize: none;
+    background-color: transparent;
+    color: azure;
+    border-radius: 10px;
+    border-color: darkgreen;
+    outline: none;
+    font-size: 1.5em;
+}
+
+main form .buttons {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    justify-content: space-around;
+}
+
+button {
+    height: 8vh;
+    font-family: 'Orbitron', sans-serif;
+    background-color: transparent;
+    color: darkseagreen;
+    border-radius: 10px;
+    border-color: darkgreen;
+    font-size: 0.65em;
+}
+
+button:hover {
+    border: none;
+    color: aliceblue;
+    background-color: darkgreen;
+}
+
+main form .result-copy {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+main form .result-copy .exibir-msg {
+    width: 15em;
+    height: 60vh;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    border-color: darkgreen;
+    font-size: 1.5em;
+}
+
+main form .result-copy .erro-copy {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+main form .result-copy .erro-copy .copy {
+    width: 9em;
+}
+
+main form .result-copy .erro-copy #msg-error {
+    width: auto;
+}
